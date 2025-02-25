@@ -24,7 +24,7 @@ body{
     padding: 40px;
   }
 
-  a{
+  .anchor{
     text-decoration: none;
     color: var(--primary-color);
   }
