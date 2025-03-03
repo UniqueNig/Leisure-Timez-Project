@@ -172,7 +172,7 @@ nav {
 .feature-box i {
     font-size: 40px;
     margin-bottom: 15px;
-    color: #feb47b;
+    color: var(--primary-color);
 }
 
 .feature-box h3 {
@@ -180,5 +180,81 @@ nav {
     margin-bottom: 10px;
     font-weight: bold;
 }
+ /* Custom Styling */
+ .about-section {
+    padding: 80px 0;
+    background-color: #f9f9ff;
+}
 
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-content h2 span {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: var(--primary-color);
+    line-height: 1.8;
+}
+.about-content .para {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+}
+
+.btn-custom {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-color);
+}
+
+.about-images {
+    position: relative;
+}
+
+.about-images img {
+    border-radius: 150px;
+    width: 40%;
+}
+
+
+.small-image {
+    position: absolute;
+    bottom: -70px;
+    left: 40%;
+   
+    transform: translateX(50%);
+    
+    border: 8px solid white;
+    border-radius: px;
+}
+
+.stats {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.stats h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stats p {
+    font-size: 14px;
+    color: #777;
+}
 
