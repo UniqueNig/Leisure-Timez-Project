@@ -303,6 +303,10 @@ nav {
     color: white;
     border: none;
 }
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+    border: none;
+}
 
 .card {
     border: none;
