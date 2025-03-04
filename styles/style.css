@@ -163,7 +163,7 @@ nav {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 5px 0;
-    margin-top: 135px;
+    margin-top: 164px;
 }
 
 .feature-box {
@@ -383,7 +383,7 @@ nav {
 .event-text {
     font-size: 16px;
     color: #555;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .gallery-item {
@@ -512,3 +512,65 @@ nav {
 .indicator.active {
     background-color: #e67e22;
 }
+
+.popular-tours {
+    /* background: url('your-background-image.jpg') center/cover no-repeat; */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    color: white;
+}
+
+.popular-tours::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popular-tours .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* .card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+} */
+
+/* .card img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+} */
+
+.card h5 {
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+    color: #1f2b6c;
+}
+
+.card-body .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.card-body .old-price {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* .rating {
+    font-size: 14px;
+    color: #555;
+} */
