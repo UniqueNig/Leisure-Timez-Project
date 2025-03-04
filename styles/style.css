@@ -514,7 +514,6 @@ nav {
 }
 
 .popular-tours {
-    /* background: url('your-background-image.jpg') center/cover no-repeat; */
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -537,25 +536,12 @@ nav {
     z-index: 2;
 }
 
-/* .card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-} */
 
-/* .card img {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
-} */
 
 .card h5 {
     font-size: 18px;
     font-weight: bold;
-    /* margin-bottom: 5px; */
+   
     color: #1f2b6c;
 }
 
@@ -570,7 +556,3 @@ nav {
     color: #777;
 }
 
-/* .rating {
-    font-size: 14px;
-    color: #555;
-} */
